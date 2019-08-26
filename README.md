@@ -94,7 +94,7 @@ Let's add some scripts to our package.json that let us transpile our assets. Add
 
 We can execute **npm run assets-watch** to keep a watch over our files during development. Running the command should create two files: **public/mix-manifest.json** and **public/js/main.js**. It is best to **gitignore** these generated files as they can cause a lot of merge conflicts when working in teams...
 
-#Routing
+# Routing
 
 Since we are building a SPA, Adonis should only handle routes that are prefixed with **/api**. All other routes will get forwarded to vue, which will then take care of the routing on the client side. Go inside **start/routes.js** and add the snippet below to it.
 
