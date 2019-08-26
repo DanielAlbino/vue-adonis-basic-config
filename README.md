@@ -11,7 +11,7 @@ adonis new fullstack-app
 cd fullstack-app
 ```
 # Webpack
-We want to create all our frontend JavaScript and Vue files inside resources/assets/js. 
+We want to create all our frontend JavaScript and Vue files inside **resources/assets/js**. 
 Webpack will transpile these and place them inside **public/js**.
 
 ```bash
