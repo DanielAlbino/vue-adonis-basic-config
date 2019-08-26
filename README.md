@@ -114,7 +114,7 @@ Route.post("post-example", () => {
 // This has to be the last route
 Route.any('*', ({view}) =>  view.render('app'))
 ```
-Let's take a look at this line: ** Route.any('*', ({view}) => view.render('app'))**
+Let's take a look at this line: **Route.any('*', ({view}) => view.render('app'))**
 The asterisk means everything that has not been declared before. Therefore it is crucial that this is the last route to be declared.
 
 The argument inside view.render app is the starting point for our SPA, where we will load the **main.js** file we created earlier. 
@@ -150,7 +150,7 @@ Let's install vue and vue router
 ```bash
 npm install vue vue-router --save-dev
 ```
-Now we initialize vue in resources/assets/js/main.js
+Now we initialize vue in **resources/assets/js/main.js**
 
 ```bash
 // resources/assets/js/main.js
