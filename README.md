@@ -107,7 +107,7 @@ return { greeting: "Nice post!" };
 Route.any('_', ({view}) => view.render('app'))
 ```
 
-Let's take a look at this line: **Route.any('\_', ({view}) => view.render('app'))** The asterisk means everything that has not been declared before. Therefore it is crucial that this is the last route to be declared.
+Let's take a look at this line: **Route.any('*', ({view}) => view.render('app'))** The asterisk means everything that has not been declared before. Therefore it is crucial that this is the last route to be declared.
 
 The argument inside view.render app is the starting point for our SPA, where we will load the **main.js** file we created earlier. Adonis uses the Edge template engine which is quite similar to blade. Let's create our view.
 
